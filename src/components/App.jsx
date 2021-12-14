@@ -8,10 +8,12 @@ import CalculateAndOrder from './Screen4/CalculateAndOrder';
 export default function App() {
   return (
     <div className="App">
-      <Screen1 />
-      <Benefits />
-      <WorkExamples />
-      <CalculateAndOrder />
+      <div className="app-container">
+        <Screen1 />
+        <Benefits />
+        <WorkExamples />
+        <CalculateAndOrder />
+      </div>
     </div>
   );
 }

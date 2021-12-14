@@ -1,0 +1,11 @@
+.Screen1{
+  background: url(../../images/web-design-2038872_1920.jpg) center;
+  width: 100vw;
+  height: 100vh;
+}
+.contacts{
+  height: 80px;
+  width: 100vw;
+  background-color: #FFB905;
+  opacity: 0.75;
+}
