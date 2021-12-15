@@ -1,8 +1,10 @@
 .Logo{
-font-size: 32px;
+font-size: 30px;
+font-weight: 600;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 line-height: 0px;
 margin-left: 2%;
+margin-bottom: 0.25%;
 }
