@@ -1,0 +1,7 @@
+.Phone{
+font-size: 32px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-right: 2%;
+}
