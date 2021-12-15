@@ -1,8 +1,7 @@
 .Contacts{
   height: 10vh;
   width: 100%;
-  background-color: #FFB905;
-  opacity: 0.75;
+  background-color: rgba(255, 185, 5, 0.75);
   display: flex;
   justify-content: space-between;
 }
