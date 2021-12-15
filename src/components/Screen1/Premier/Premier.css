@@ -1,0 +1,39 @@
+.Premier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.Premier-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+  width: 65vw;
+  height: 50vh;
+  background-color: rgba(196, 196, 196, 0.75);
+  border-radius: 19px;
+  line-height: 8vw;
+}
+.lineOne {
+  font-size: 6vw;
+  font-weight: bold;
+}
+.lineTwo{
+  font-size: 3.5vw;
+  font-style: italic;
+  font-weight: lighter;
+}
+.Premier-content button{
+  font-size: 1.4vw;
+  width: 25vw;
+  height: 8vh;
+  margin-top: 1vh;
+  border-radius: 21px;
+  background-color: #FFB905;
+  border:0px solid;
+  font-weight: bold;
+}
+
+
