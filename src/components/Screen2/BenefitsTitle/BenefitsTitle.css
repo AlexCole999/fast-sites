@@ -1,11 +1,4 @@
-.benefits-wrapper{
-  display: flex;
-  justify-content: center;
-  background: no-repeat url(../../images/statistics.jpg) center/cover;
-  width: 100vw;
-  height: 100vh;
-}
-.benefits-title{
+.BenefitsTitle{
   display: flex;
   justify-content: center;
   align-items: center;
