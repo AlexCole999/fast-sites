@@ -1,6 +1,7 @@
 .benefits-wrapper{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: no-repeat url(../../images/statistics.jpg) center/cover;
   width: 100vw;
   height: 100vh;
