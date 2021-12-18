@@ -1,0 +1,10 @@
+.BenefitsElem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 270px;
+  background: rgba(255, 185, 5, 0.75);
+  border-radius: 8px;
+  flex-grow: 0;
+}
