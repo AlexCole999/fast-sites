@@ -8,10 +8,10 @@ import icon3 from '../../../images/24hours.svg'
 export default function BenefitsMenu() {
   return (
     <div className="BenefitsMenu">
-      <BenefitsElem icon={icon1} title={"НЕДОРОГО"} />
-      <BenefitsElem icon={icon2} title={"БЫСТРО"} />
-      <BenefitsElem icon={icon3} title={"ПОДДЕРЖКА"} />
-      <BenefitsElem icon={icon4} title={"ПОД КЛЮЧ"} />
+      <BenefitsElem icon={icon1} title={"НЕДОРОГО"} text={"От 4990 рублей"} />
+      <BenefitsElem icon={icon2} title={"БЫСТРО"} text={"Срок работ от 2-х дней"} />
+      <BenefitsElem icon={icon3} title={"ПОДДЕРЖКА"} text={"На связи в любое время"} />
+      <BenefitsElem icon={icon4} title={"ПОД КЛЮЧ"} text={"Полностью готовы к работе"} />
     </div>
   );
 }

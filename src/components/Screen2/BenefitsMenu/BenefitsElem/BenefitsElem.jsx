@@ -9,6 +9,9 @@ export default function BenefitsElem(props) {
       <div className="benefitsElem-title">
         {props.title}
       </div>
+      <div className="benefitsElem-text">
+        <li>{props.text}</li>
+      </div>
     </div>
   );
 }
