@@ -1,0 +1,13 @@
+.CalculateAndOrderTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 5vw;
+  margin-top: 11vh;
+  background-color: #FFB905;
+  width: 45vw;
+  height: 11vh;
+  border-radius: 19px;
+}
