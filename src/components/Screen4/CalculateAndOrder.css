@@ -1,0 +1,8 @@
+.CalculateAndOrder{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: no-repeat url(../../images/order.jpg) center/cover;
+  width: 100vw;
+  height: 100vh;
+}
