@@ -1,38 +1,8 @@
 .Calculate{
-  background: rgba(255, 185, 5, 0.75);
+  background: rgba(255, 185, 5, 0.9);
   width: 500px;
   max-height: 600px;
   border-radius: 15px;
+  overflow-y: scroll;
 }
 
-.Service{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 25px 25px 0px 25px;
-}
-
-.service-checkbox{
-  min-width: 40px;
-  min-height: 40px;
-  background-color: #fff;
-  border-radius: 10px;
-  border:1px solid black;
-}
-.service-text{
-  margin-left: 25px;
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.service-price{
-  min-width: 50px;
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 14px;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-}

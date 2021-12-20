@@ -1,15 +1,13 @@
 import './Service.css';
 
-export default function Service() {
+export default function Service(props) {
   return (
-    <div>
-      <div className='service'>
+    <div className='Service'>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
         <div className="service-checkbox"></div>
-        <div className="service-text">УСЛУГА</div>
+        <div className="service-text">{props.text}</div>
       </div>
-      <div>
-        <div className="service-price">4 990</div>
-      </div>
+      <div className="service-price">{props.price}</div>
     </div>
   );
 }

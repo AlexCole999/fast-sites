@@ -1,24 +1,35 @@
-.service{
+.Service{
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
+  padding: 25px 25px 0px 25px;
 }
+
 .service-checkbox{
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   background-color: #fff;
   border-radius: 10px;
   border:1px solid black;
+  transition: transform 0.2s;
+}
+.service-checkbox:hover{
+  background: url('../../../../images/galka.svg') center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-color: rgba(224, 224, 224, 0.884);
+  transform: scale(1.1);
 }
 .service-text{
   margin-left: 25px;
   font-family: Roboto;
   font-style: italic;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
 }
 .service-price{
+  min-width: 50px;
   font-family: Roboto;
   font-style: italic;
   font-weight: normal;
