@@ -6,3 +6,16 @@
   width: 100vw;
   height: 100vh;
 }
+.CalculateAndOrderContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  margin-top: 5vh;
+}
+.Calculate{
+  background: rgba(255, 185, 5, 0.75);
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+}
