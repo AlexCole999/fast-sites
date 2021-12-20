@@ -1,10 +1,27 @@
-.Order{
+.OrderSum{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.75);
-  width: 500px;
-  height: 600px;
-  border-radius: 15px;
+  width: 88%;
+  margin-bottom: 25px;
+}
+.OrderSum-resultWord{
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.OrderSum-resultPrice{
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }

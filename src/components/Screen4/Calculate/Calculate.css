@@ -1,8 +1,7 @@
 .Calculate{
   background: rgba(255, 185, 5, 0.9);
   width: 500px;
-  max-height: 600px;
+  height: 600px;
   border-radius: 15px;
   overflow-y: scroll;
 }
-
