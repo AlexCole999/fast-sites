@@ -1,20 +1,11 @@
-.Calculate{
-  background: rgba(255, 185, 5, 0.75);
-  width: 500px;
-  max-height: 600px;
-  border-radius: 15px;
-}
-
-.Service{
+.service{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 25px 25px 0px 25px;
+  justify-content: start;
 }
-
 .service-checkbox{
-  min-width: 40px;
-  min-height: 40px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   border-radius: 10px;
   border:1px solid black;
@@ -28,7 +19,6 @@
   text-transform: uppercase;
 }
 .service-price{
-  min-width: 50px;
   font-family: Roboto;
   font-style: italic;
   font-weight: normal;
