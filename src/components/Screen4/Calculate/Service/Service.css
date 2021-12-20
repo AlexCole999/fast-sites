@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 25px 0px 25px;
+  padding: 25px 15px 0px 25px;
 }
-
 .service-checkbox{
   min-width: 40px;
   min-height: 40px;
@@ -21,7 +20,7 @@
   transform: scale(1.1);
 }
 .service-text{
-  margin-left: 25px;
+  margin-left: 15px;
   font-family: Roboto;
   font-style: italic;
   font-weight: 500;
@@ -29,6 +28,8 @@
   text-transform: uppercase;
 }
 .service-price{
+  display: flex;
+  justify-content: end;
   min-width: 50px;
   font-family: Roboto;
   font-style: italic;
