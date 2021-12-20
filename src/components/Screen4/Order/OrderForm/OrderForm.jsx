@@ -11,6 +11,11 @@ export default function OrderForm() {
         <div className="order-name">Имя</div>
         <input className="order-name-input" type="text" />
       </div>
+      <button className='order-button'>
+        <div className="order-button-text">
+          купить
+        </div>
+      </button>
     </div>
   );
 }
