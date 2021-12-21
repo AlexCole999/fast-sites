@@ -29,7 +29,7 @@
 }
 .service-price{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   min-width: 50px;
   font-family: Roboto;
   font-style: italic;
