@@ -25,6 +25,7 @@
   cursor: pointer;
 }
 .row-elem img{
+  box-shadow: rgba(51, 51, 51, 0.7) 4px 4px 16px;
   width: 100%;
   height: 100%;
   border-radius: 15px;

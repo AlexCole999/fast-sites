@@ -12,9 +12,10 @@
   color:black;
   width: 65vw;
   height: 50vh;
-  background-color: rgba(196, 196, 196, 0.75);
+  background-color: rgba(196, 196, 196, 0.9);
   border-radius: 19px;
   line-height: 8vw;
+  box-shadow: rgba(51, 51, 51, 0.7) 4px 4px 16px;
 }
 .lineOne {
   font-size: 6vw;
@@ -40,6 +41,7 @@
   cursor:pointer;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: all 0.5s ;
+  box-shadow: rgba(51, 51, 51, 0.7) 0px 0px 16px 2px;
 }
 .Premier-content button:hover{
     background-color: rgb(255, 217, 0);
