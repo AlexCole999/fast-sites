@@ -8,3 +8,23 @@ align-items: center;
 margin-left: 3%;
 line-height: 0px;
 }
+@media screen and (max-width:1024px) {
+  .Logo{
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width:768px) {
+  .Logo{
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width:540px) {
+  .Logo{
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width:375px) {
+  .Logo{
+    font-size: 7vw;
+  }
+}

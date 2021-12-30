@@ -7,3 +7,13 @@ align-items: center;
 margin-right: 3%;
 line-height: 0px;
 }
+@media screen and (max-width:1024px) {
+  .Phone{
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width:768px) {
+  .Phone{
+    font-size: 4vw;
+  }
+}
