@@ -33,3 +33,15 @@
   align-items: center;
   text-align: center;
 }
+@media screen and (max-width:540px) {
+  .BenefitsElem {
+    width: 170px;
+    height: 210px;
+  }
+}
+@media screen and (max-width:375px) {
+  .BenefitsElem {
+    width: 200px;
+    height: 180px;
+  }
+}

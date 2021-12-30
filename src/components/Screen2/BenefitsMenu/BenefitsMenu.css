@@ -4,9 +4,24 @@
   align-items: center;
   margin-top: 15vh;
   gap: 30px;
+  max-width: 1024px;
 }
-@media screen and (max-width:1040px) {
+@media screen and (max-width:1024px) {
   .BenefitsMenu {
     flex-wrap: wrap;
+    gap:15px;
+    max-width: 540px;
+  }
+}
+@media screen and (max-width:540px) {
+  .BenefitsMenu {
+    gap:8px;
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-width:375px) {
+.BenefitsMenu {
+    margin-top: 4vh;
+    gap:8px;
   }
 }
