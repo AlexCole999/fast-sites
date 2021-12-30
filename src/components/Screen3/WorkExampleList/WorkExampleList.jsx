@@ -8,25 +8,22 @@ import example5 from '../../../images/works.jpg'
 export default function WorkExampleList() {
   return (
     <div className="WorkExampleList">
-      <div className="row1">
-        <div className="row-elem">
-          <img src={example2} alt="" />
-        </div>
-        <div className="row-elem">
-          <img src={example5} alt="" />
-        </div>
+      <div className="row-elem">
+        <img src={example2} alt="" />
       </div>
-      <div className="row2">
-        <div className="row-elem">
-          <img src={example4} alt="" />
-        </div>
-        <div className="row-elem">
-          <img src={example1} alt="" />
-        </div>
-        <div className="row-elem">
-          <img src={example2} alt="" />
-        </div>
+      <div className="row-elem">
+        <img src={example5} alt="" />
       </div>
+      <div className="row-elem">
+        <img src={example4} alt="" />
+      </div>
+      <div className="row-elem">
+        <img src={example1} alt="" />
+      </div>
+      <div className="row-elem">
+        <img src={example2} alt="" />
+      </div>
+
     </div>
   );
 }
