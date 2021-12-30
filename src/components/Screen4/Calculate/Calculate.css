@@ -1,8 +1,11 @@
 .Calculate{
   background: rgba(255, 185, 5, 0.9);
-  width: 500px;
+  width: 512px;
   height: 600px;
   border-radius: 15px;
   overflow-y: scroll;
   box-shadow: rgba(51, 51, 51, 0.7) 4px 4px 16px;
+}
+@media screen and (max-width:1024px) {
+    .Calculate{height: 35vh;}
 }
